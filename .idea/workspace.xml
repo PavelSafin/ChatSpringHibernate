@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b776d31c-c2b0-4372-9647-24cd55afa36f" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/chat_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/chat_war_exploded.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_1_3.xml" afterPath="" />
@@ -66,199 +62,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/controller/AboutController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/controller/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/controller/ProfileController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/dao/MessageDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/dao/MessageDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/dao/UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/domain/ChatMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/domain/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/service/MessageService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/service/MessageServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/service/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/util/ForbiddenException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/util/OpResult$Status.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/util/OpResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/com/toster/chat/util/ResourceNotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/classes/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/commons-digester-2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/ejb3-persistence-1.0.2.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-annotations-3.4.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-3.1.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-core-3.3.2.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-4.0.2.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/hsqldb-2.2.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/javassist-3.9.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/joda-time-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/joda-time-jsptags-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/persistence-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-context-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-expression-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-acl-3.1.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-config-3.1.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-core-3.1.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-taglibs-3.1.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-security-web-3.1.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/tiles-api-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/tiles-core-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/tiles-jsp-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/tiles-servlet-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/tiles-template-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/validation-api-1.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/security-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context-hibernate3.LocalSessionFactoryBean.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/about.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/admin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/main_template.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/menu.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/profile/createProfile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/profile/editProfile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/profile/viewProfile.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/profile/views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/register.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/tiles/top.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/views/views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/css/home.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/css/jumbotron-narrow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/images/.keepme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/images/pic.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/images/pic_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat-1.0.0-SNAPSHOT/resources/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/chat.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/controller/AboutController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/controller/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/controller/ProfileController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/dao/MessageDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/dao/MessageDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/dao/UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/domain/ChatMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/domain/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/service/MessageService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/service/MessageServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/service/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/util/ForbiddenException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/util/OpResult$Status.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/util/OpResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/toster/chat/util/ResourceNotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/antlr-antlr-java-source-sources-2.7.6.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/aopalliance-aopalliance-java-source-sources-1.0.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/com.sun.xml.bind-jaxb-impl-java-source-sources-2.1.3.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/commons-beanutils-commons-beanutils-java-source-sources-1.8.0.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/commons-collections-commons-collections-java-source-sources-3.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/commons-digester-commons-digester-java-source-sources-2.0.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/dom4j-dom4j-java-source-sources-1.6.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javassist-javassist-java-source-sources-3.9.0.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.activation-activation-java-source-sources-1.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.persistence-persistence-api-java-source-sources-1.0.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.servlet-jstl-java-source-sources-1.2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.servlet-servlet-api-java-source-sources-2.5.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.servlet.jsp-jsp-api-java-source-sources-2.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.transaction-jta-java-source-sources-1.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.validation-validation-api-java-source-sources-1.0.0.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.xml.bind-jaxb-api-java-source-sources-2.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.xml.stream-stax-api-java-source-sources-1.0-2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/joda-time-joda-time-java-source-sources-2.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/joda-time-joda-time-jsptags-java-source-sources-1.1.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/junit-junit-java-source-sources-4.11.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/log4j-log4j-java-source-sources-1.2.16.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/mysql-mysql-connector-java-java-source-sources-5.1.21.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tiles-tiles-api-java-source-sources-2.2.2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tiles-tiles-core-java-source-sources-2.2.2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tiles-tiles-jsp-java-source-sources-2.2.2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tiles-tiles-servlet-java-source-sources-2.2.2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tiles-tiles-template-java-source-sources-2.2.2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.codehaus.jackson-jackson-core-asl-java-source-sources-1.9.4.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.codehaus.jackson-jackson-mapper-asl-java-source-sources-1.9.4.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hamcrest-hamcrest-core-java-source-sources-1.3.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hibernate-ejb3-persistence-java-source-sources-1.0.2.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hibernate-hibernate-annotations-java-source-sources-3.4.0.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hibernate-hibernate-commons-annotations-java-source-sources-3.1.0.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hibernate-hibernate-core-java-source-sources-3.3.2.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hibernate-hibernate-validator-java-source-sources-4.0.2.GA.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hsqldb-hsqldb-java-source-sources-2.2.8.unresolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-jcl-over-slf4j-java-source-sources-1.6.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-slf4j-api-java-source-sources-1.6.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-slf4j-log4j12-java-source-sources-1.6.1.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-aop-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-beans-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-context-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-core-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-expression-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-jdbc-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-orm-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-tx-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-web-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-webmvc-java-source-sources-3.2.0.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.security-spring-security-acl-java-source-sources-3.1.2.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.security-spring-security-config-java-source-sources-3.1.2.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.security-spring-security-core-java-source-sources-3.1.2.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.security-spring-security-taglibs-java-source-sources-3.1.2.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.security-spring-security-web-java-source-sources-3.1.2.RELEASE.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/xml-apis-xml-apis-java-source-sources-1.0.b2.resolved" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/log4j.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat.iml" afterPath="$PROJECT_DIR$/chat.iml" />
     </list>
     <ignored path="chat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -293,8 +98,8 @@
       <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/toster/chat/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -619,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/toster/chat/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding />
         </state>
       </provider>
