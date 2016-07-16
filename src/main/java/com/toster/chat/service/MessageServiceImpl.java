@@ -18,8 +18,8 @@ import java.util.Date;
 import java.util.List;
 
 @Service("messageService")
-@Transactional(propagation= Propagation.SUPPORTS)
-public class MessageServiceImpl implements MessageService{
+@Transactional(propagation = Propagation.SUPPORTS)
+public class MessageServiceImpl implements MessageService {
 
     private static final Logger log = LoggerFactory.getLogger(UserServiceImpl.class);
 
@@ -44,17 +44,17 @@ public class MessageServiceImpl implements MessageService{
         StringBuilder chatHistory = new StringBuilder();
         List<ChatMessage> messages = getRecentMessages(limit, email1, email2);
 
-        for (ChatMessage m : messages ) {
+        for (ChatMessage m : messages) {
             // TODO
             String added = getTimeDiff(m.getTimestamp());
             chatHistory.append(
                     "<div class=\"media msg \">" +
-                        "<div class=\"media-body\">" +
+                            "<div class=\"media-body\">" +
                             "<small class=\"pull-right time\"><i class=\"fa fa-clock-o\"></i> 12:10am</small>" +
-                                "<h5 class=\"media-heading\">" + m.getAuthor().getFirstName() + " " + m.getAuthor().getLastName() +"</h5>" +
-                            "<small class=\"col-lg-10\">" +  m.getMessage() + "</small>" +
-                        "</div>" +
-                    "</div>"
+                            "<h5 class=\"media-heading\">" + m.getAuthor().getFirstName() + " " + m.getAuthor().getLastName() + "</h5>" +
+                            "<small class=\"col-lg-10\">" + m.getMessage() + "</small>" +
+                            "</div>" +
+                            "</div>"
             );
 
 //            String.format("<b>%s</b>: %s<br />",
@@ -70,7 +70,7 @@ public class MessageServiceImpl implements MessageService{
         DateTime now = new DateTime();
         //log.debug("now = " + now);
         //log.debug("startDate = " + new DateTime(startTime) );
-        PeriodType type = PeriodType.forFields(new DurationFieldType[] {
+        PeriodType type = PeriodType.forFields(new DurationFieldType[]{
                 DurationFieldType.minutes(),
                 DurationFieldType.hours(),
                 DurationFieldType.days(),

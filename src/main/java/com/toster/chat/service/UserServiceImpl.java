@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service("userService")
-@Transactional(propagation= Propagation.REQUIRED)
+@Transactional(propagation = Propagation.REQUIRED)
 public class UserServiceImpl implements UserService {
 
     private static final Logger log = LoggerFactory.getLogger(UserServiceImpl.class);
@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
         return saveUser(user, true);
     }
 
-    @Transactional(propagation=Propagation.SUPPORTS, readOnly=true)
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     public User getUser(Long userId) {
         if (log.isDebugEnabled()) {
             log.debug("getUser: fetching user id=" + userId);
@@ -55,8 +55,8 @@ public class UserServiceImpl implements UserService {
 
         try {
             User existingUser = userDao.findUserByEmail(user.getEmail());
-            if ( existingUser == null ||
-                 (!newUser && existingUser.getId().equals(user.getId()))) {
+            if (existingUser == null ||
+                    (!newUser && existingUser.getId().equals(user.getId()))) {
                 // either the nick is vacant or the user with he same id is updated
                 user = userDao.save(user);
 
@@ -80,7 +80,7 @@ public class UserServiceImpl implements UserService {
         }
     }
 
-    @Transactional(propagation=Propagation.SUPPORTS, readOnly=true)
+    @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
     public List<User> getAllUsers() {
         if (log.isDebugEnabled()) {
             log.debug("getAllUsers: fetching all users.");

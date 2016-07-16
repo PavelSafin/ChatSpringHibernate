@@ -6,37 +6,38 @@ import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 @NamedQueries({
-    @NamedQuery(
-        name = "findUserByEmail",
-        query = "from User u where u.email = :email"
-    )
+        @NamedQuery(
+                name = "findUserByEmail",
+                query = "from User u where u.email = :email"
+        )
 })
 @Entity
-@Table(name="user")
+@Table(name = "user")
 public class User {
-    @Id @GeneratedValue
-    @Column(name = "id" )
+    @Id
+    @GeneratedValue
+    @Column(name = "id")
     private Long id;
 
-    @Size(min=2, max=15, message=
+    @Size(min = 2, max = 15, message =
             "First name must be between 2 and 15 characters long")
-    @Pattern(regexp="^[a-zA-Z]+$",
-            message="Invalid characters")
+    @Pattern(regexp = "^[a-zA-Z]+$",
+            message = "Invalid characters")
     private String firstName;
 
-    @Size(max=15, message=
+    @Size(max = 15, message =
             "Last name must be between 2 and 15 characters long")
-    @Pattern(regexp="^[a-zA-Z]+$",
-            message="Invalid characters")
+    @Pattern(regexp = "^[a-zA-Z]+$",
+            message = "Invalid characters")
     private String lastName;
 
-    @Size(min=5, max=20,
-            message="The password must be at least 5 characters long")
+    @Size(min = 5, max = 20,
+            message = "The password must be at least 5 characters long")
     private String password;
 
 
-    @Pattern(regexp="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}",
-            message="Invalid email address")
+    @Pattern(regexp = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}",
+            message = "Invalid email address")
     private String email;
 
     public User() {
@@ -60,7 +61,7 @@ public class User {
         this.id = id;
     }
 
-    @Column(name="firstName", nullable=false)
+    @Column(name = "firstName", nullable = false)
     public String getFirstName() {
         return this.firstName;
     }
@@ -70,7 +71,7 @@ public class User {
     }
 
 
-    @Column(name="lastName", nullable=false)
+    @Column(name = "lastName", nullable = false)
     public String getLastName() {
         return this.lastName;
     }
@@ -79,7 +80,7 @@ public class User {
         this.lastName = lastName;
     }
 
-    @Column(name="password", nullable=false)
+    @Column(name = "password", nullable = false)
     public String getPassword() {
         return this.password;
     }
@@ -89,7 +90,7 @@ public class User {
     }
 
 
-    @Column(name="email", nullable=false)
+    @Column(name = "email", nullable = false)
     public String getEmail() {
         return email;
     }

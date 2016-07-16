@@ -4,27 +4,28 @@ import javax.persistence.*;
 import java.util.Date;
 
 @NamedQueries({
-    @NamedQuery(
-        name = "fetchRecentMessages",
-        query = "from ChatMessage m where (m.sender = :email1 and " +
-                "m.recipient = :email2) or (m.sender = :email2 and m.recipient = :email1) order by m.timestamp desc"
-    )
+        @NamedQuery(
+                name = "fetchRecentMessages",
+                query = "from ChatMessage m where (m.sender = :email1 and " +
+                        "m.recipient = :email2) or (m.sender = :email2 and m.recipient = :email1) order by m.timestamp desc"
+        )
 })
 @Entity
-@Table(name="messages")
+@Table(name = "messages")
 public class ChatMessage {
-    @Id @GeneratedValue
-    @Column(name = "id" )
+    @Id
+    @GeneratedValue
+    @Column(name = "id")
     private Long id;
 
-    @Column(name="message", nullable=false)
+    @Column(name = "message", nullable = false)
     private String message;
 
-    @Column(name="timestamp", nullable = false)
+    @Column(name = "timestamp", nullable = false)
     private Date timestamp;
 
     @ManyToOne
-    @JoinColumn(name="author_id")
+    @JoinColumn(name = "author_id")
     private User author;
 
     @Column(name = "sender")
@@ -36,7 +37,7 @@ public class ChatMessage {
     public ChatMessage() {
     }
 
-    public ChatMessage(String message , User author, String email) {
+    public ChatMessage(String message, User author, String email) {
 
         this.message = message;
         this.timestamp = new Date();
