@@ -8,7 +8,7 @@ import java.util.Map;
 
 @Controller
 public class AboutController {
-    @RequestMapping(value="/about", method = RequestMethod.GET)
+    @RequestMapping(value = "/about", method = RequestMethod.GET)
     public String printWelcome(Map<String, Object> model) {
         return "about";
     }

@@ -34,28 +34,28 @@ public class HomeController {
     @Autowired
     private MessageService messageService;
 
-    @RequestMapping(value = {"/"}, method=RequestMethod.GET)
+    @RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public String index(Map<String, Object> model) {
         User user = getCurrentUser();
         activeUser = new HashMap<String, String>();
-        if  (user == null)
+        if (user == null)
             return "redirect:/login";
 
         List<User> users = userService.getAllUsers();
         String friendList = "";
 
-        for (User u: users) {
+        for (User u : users) {
             if (!u.getEmail().equals(user.getEmail())) {
                 friendList +=
 
-                "<div class=\"media conversation\">" +
-                    "<a class=\"pull-left\" href=\"#\" onclick=\"updateChatHistory('" + u.getEmail() + "');\">" +
-                        "<div class=\"media-body\">" +
-                            "<h5 class=\"media-heading\">" + u.getFirstName() + " " + u.getLastName()+ "</h5>" +
-                            "<small>" + u.getEmail() + "</small>" +
-                        "</div>" +
-                    "</a>" +
-                "</div>";
+                        "<div class=\"media conversation\">" +
+                                "<a class=\"pull-left\" href=\"#\" onclick=\"updateChatHistory('" + u.getEmail() + "');\">" +
+                                "<div class=\"media-body\">" +
+                                "<h5 class=\"media-heading\">" + u.getFirstName() + " " + u.getLastName() + "</h5>" +
+                                "<small>" + u.getEmail() + "</small>" +
+                                "</div>" +
+                                "</a>" +
+                                "</div>";
 
             }
         }
@@ -68,22 +68,23 @@ public class HomeController {
         return "home";
     }
 
-    @RequestMapping(value = {"home"}, method=RequestMethod.GET)
+    @RequestMapping(value = {"home"}, method = RequestMethod.GET)
     public String home(Map<String, Object> model) {
         return "redirect:/";
     }
 
-    @RequestMapping(value="/register", method=RequestMethod.GET)
+    @RequestMapping(value = "/register", method = RequestMethod.GET)
     public String register(Model model) {
         model.addAttribute(new User());
         return "redirect:/profile/new";
     }
 
 
-    @RequestMapping(value = "/postMessageAJAX.json", method=RequestMethod.POST)
+    @RequestMapping(value = "/postMessageAJAX.json", method = RequestMethod.POST)
     @Secured("ROLE_USER")
-    public @ResponseBody
-    OpResult postChatMessage(@RequestParam(value="text") String text) {
+    public
+    @ResponseBody
+    OpResult postChatMessage(@RequestParam(value = "text") String text) {
         User user = getCurrentUser();
         if (user == null) {
             throw new ForbiddenException();
@@ -94,8 +95,10 @@ public class HomeController {
         return new OpResult(OpResult.Status.SUCCESS);
     }
 
-    @RequestMapping(value = "/loadChatHistoryAJAX.json", method=RequestMethod.GET)
-    public @ResponseBody OpResult loadChatHistory(@RequestParam(value = "sender") String email) {
+    @RequestMapping(value = "/loadChatHistoryAJAX.json", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    OpResult loadChatHistory(@RequestParam(value = "sender") String email) {
 
         if (!email.equals("nope"))
             activeUser.put(getCurrentUser().getEmail(), email);

@@ -13,23 +13,23 @@ public class LoginController {
     private static final Logger log = LoggerFactory.getLogger(HomeController.class);
 
 
-    @RequestMapping(value="/welcome", method = RequestMethod.GET)
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
         return "redirect:/home";
     }
 
-    @RequestMapping(value="/login", method = RequestMethod.GET)
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(ModelMap model) {
         return "login";
     }
 
-    @RequestMapping(value="/loginfailed", method = RequestMethod.GET)
+    @RequestMapping(value = "/loginfailed", method = RequestMethod.GET)
     public String loginerror(ModelMap model) {
         model.addAttribute("loginfailed", "true");
         return "login";
     }
 
-    @RequestMapping(value="/logout", method = RequestMethod.GET)
+    @RequestMapping(value = "/logout", method = RequestMethod.GET)
     public String logout(ModelMap model) {
         return "redirect:/login";
     }

@@ -23,9 +23,9 @@ public class ProfileController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value="/profile/view/{id}", method=RequestMethod.GET)
+    @RequestMapping(value = "/profile/view/{id}", method = RequestMethod.GET)
     public String viewProfile(@PathVariable("id") long id,
-                           ModelMap model) {
+                              ModelMap model) {
 
         User user = userService.getUser(id);
         if (user == null) {
@@ -37,26 +37,26 @@ public class ProfileController {
         return "profile/viewProfile";
     }
 
-    @RequestMapping(value="/profile/new", method=RequestMethod.GET)
+    @RequestMapping(value = "/profile/new", method = RequestMethod.GET)
     public String showRegistrationForm(Map<String, Object> model) {
         model.put("user", new User());
         model.put("page", "register");
         return "profile/createProfile";
     }
 
-    @RequestMapping(value="/profile/new", method=RequestMethod.POST)
+    @RequestMapping(value = "/profile/new", method = RequestMethod.POST)
     public String addUserFromForm(@Valid User user,
                                   BindingResult bindingResult) {
         return createOrUpdateUser(user, bindingResult, true);
     }
 
-    @RequestMapping(value="/profile/edit/{id}", method=RequestMethod.POST)
+    @RequestMapping(value = "/profile/edit/{id}", method = RequestMethod.POST)
     public String saveUserProfile(@Valid User user,
                                   BindingResult bindingResult) {
         return createOrUpdateUser(user, bindingResult, false);
     }
 
-    @RequestMapping(value="/profile/edit/{id}", method=RequestMethod.GET)
+    @RequestMapping(value = "/profile/edit/{id}", method = RequestMethod.GET)
     public String editUserProfile(@PathVariable("id") long id,
                                   ModelMap model) {
         User requestedUser = userService.getUser(id);
@@ -77,12 +77,12 @@ public class ProfileController {
                                       Boolean create) {
         String viewName = create ? "profile/createProfile" : "profile/editProfile";
 
-        if(bindingResult.hasErrors()) {
+        if (bindingResult.hasErrors()) {
             return viewName;
         }
 
         OpResult result;
-        Boolean changedNickName  = false;
+        Boolean changedNickName = false;
         if (create) {
             result = userService.addUser(user);
         } else {

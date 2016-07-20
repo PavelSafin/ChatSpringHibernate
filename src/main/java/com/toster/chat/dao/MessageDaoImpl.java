@@ -8,9 +8,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import static java.lang.Math.*;
 
 import java.util.List;
+
+import static java.lang.Math.min;
 
 @Repository("messageDao")
 public class MessageDaoImpl implements MessageDao {
@@ -24,11 +25,11 @@ public class MessageDaoImpl implements MessageDao {
         this.sessionFactory = sessionFactory;
     }
 
-    @Transactional(readOnly=true)
+    @Transactional(readOnly = true)
     public ChatMessage getMessage(Long messageId) {
         ChatMessage message = (ChatMessage) sessionFactory.getCurrentSession().get(ChatMessage.class, messageId);
         if (log.isDebugEnabled()) {
-            log.debug ("getMessage: " + message);
+            log.debug("getMessage: " + message);
         }
         return message;
     }
@@ -38,7 +39,7 @@ public class MessageDaoImpl implements MessageDao {
         sessionFactory.getCurrentSession().save(message);
     }
 
-    @Transactional(readOnly=true)
+    @Transactional(readOnly = true)
     public List<ChatMessage> getRecentMessages(int limit, String email1, String email2) {
         Query query = sessionFactory.getCurrentSession().getNamedQuery("fetchRecentMessages");
         query.setString("email1", email1);
