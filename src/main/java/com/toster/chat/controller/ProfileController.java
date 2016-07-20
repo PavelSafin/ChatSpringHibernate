@@ -1,10 +1,10 @@
 package com.toster.chat.controller;
 
+import com.toster.chat.domain.User;
 import com.toster.chat.service.UserService;
+import com.toster.chat.util.ForbiddenException;
 import com.toster.chat.util.OpResult;
 import com.toster.chat.util.ResourceNotFoundException;
-import com.toster.chat.domain.User;
-import com.toster.chat.util.ForbiddenException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
